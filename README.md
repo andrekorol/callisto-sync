@@ -1,2 +1,3 @@
 # callisto-sync
-Sync data between e-Callisto and NeoCallisto
+
+Tools to sync data between e-Callisto and NeoCallisto
