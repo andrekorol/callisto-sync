@@ -1,9 +1,10 @@
 use cloud_storage::{Bucket, Object};
+use std::error::Error;
 use tokio::fs;
 use tokio_compat_02::FutureExt;
 
 #[tokio::main]
-async fn main() -> Result<(), Box<dyn std::error::Error>> {
+async fn main() -> Result<(), Box<dyn Error>> {
     const BUCKET_NAME: &str = "neocallisto";
     const FILENAME: &str = "Cargo.toml";
 
